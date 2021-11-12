@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\Admin\DashboardController;
 use App\Http\Livewire\Admin\Users\ListUsers;
+use App\Http\Livewire\Admin\Appointments\ListAppointments;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -23,3 +24,4 @@ Route::get('/', DashboardController::class)->name('admin.dashboard');
 Route::get('admin', DashboardController::class)->name('admin.dashboard');
 Route::get('admin/dashboard', DashboardController::class)->name('admin.dashboard');
 Route::get('admin/users', ListUsers::class)->name('admin.users');
+Route::get('admin/appointments', ListAppointments::class)->name('admin.appointments');
