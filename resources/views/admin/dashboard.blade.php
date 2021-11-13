@@ -30,7 +30,7 @@
                 <div class="card-body">
                   <h6 class="card-title">Hétközben összejövetelek beosztása</h6>
 
-                  <p class="card-text">Itt találod a hátközbeni összejövetelek beosztását</p>
+                  <p class="card-text">Itt találod a hétközbeni összejövetelek beosztását</p>
                   <a href="#" class="btn btn-primary">Részletek</a>
                 </div>
             </div>

@@ -38,7 +38,7 @@
             <a href="{{ route('admin.dashboard') }}" class="nav-link {{ request()->is('admin/dashboard') ? 'active' : '' }}">
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
-                Vezérlőpult
+                Főoldali menü
               </p>
             </a>
           </li>
